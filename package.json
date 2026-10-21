@@ -1,0 +1,21 @@
+{
+  "name": "semenit-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts SemenitShorts out/semenit.mp4",
+    "build": "remotion compositions src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.316",
+    "@remotion/google-fonts": "4.0.316",
+    "remotion": "4.0.316",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.7.2"
+  }
+}
